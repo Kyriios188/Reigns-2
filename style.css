@@ -1,0 +1,179 @@
+
+
+html,main {
+    height: 100%;
+    background-image: url(./theone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meter-container{
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 250px;
+    margin-left: 65%;
+    margin-top: -10%
+}
+
+label{
+    color: white;
+    font-style: oblique;
+}
+
+#bank::-webkit-progress-value{
+    background-color: yellow;
+}
+
+#bank::-webkit-progress-bar{
+    background-color: white;
+}
+
+#bank::-moz-progress-bar{
+    background: yellow;
+}
+
+#army::-webkit-progress-value{
+    background-color: rgb(70, 63, 6);
+}
+
+#army::-webkit-progress-bar{
+    background-color: white;
+}
+
+#army::-moz-progress-bar{
+    background:  rgb(70, 63, 6);
+}
+
+#people::-webkit-progress-value{
+    background-color: lightcoral;
+}
+
+#people::-webkit-progress-bar{
+    background-color: white;
+}
+
+#people::-moz-progress-bar{
+    background:  lightcoral;
+}
+
+#religion::-webkit-progress-value{
+    background-color: lightslategray;
+}
+
+#religion::-webkit-progress-bar{
+    background-color: white;
+}
+
+#religion::-moz-progress-bar{
+    background: lightslategray;
+}
+
+
+.item{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+    transition: all 1s;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.image-container{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+.left{
+    position: absolute;
+    margin-left: 25.1%;
+    top : 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    background-color: transparent;
+    opacity: 0.9;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: transparent;
+}
+.right{
+    position: absolute;
+    margin-left: 75%;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    background-color: transparent;
+    opacity: 0.9;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: transparent;
+}
+
+.right:hover{
+    background-color: black;
+    box-shadow: -10.22em 0em 0em black;
+    opacity: 0.9;
+    color: white;
+}
+.left:hover {
+    background-color: black;
+    box-shadow: 10.22em 0em 0em black;
+    opacity: 0.9;
+    color: white;
+}
+
+progress {
+    width: 100px;
+    height: 20px;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+
+.container-description{
+    max-width: 50%;
+    position: relative;
+}
+
+.titre-text{
+    color: white;
+    font-style: italic;
+    position: relative;
+}
+
+.description-text{
+    color : white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-variant: small-caps;
+    font-size: 12px;
+    text-align: justify;
+}
