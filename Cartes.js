@@ -278,7 +278,7 @@ const dragon = new carte("Dragon", "Un dragon sévit dans les montagnes au Nord.
 
 const guerre = new carte("Guerre", "Des rapports de nos espions nous informent que la nation voisine renforçait dangereusement son armée près de notre frontière. Nous pourrions leur déclarer la guerre de manière préventive au risque de fragiliser notre propre armée, ou essayer de parlementer.", "Déclarer la guerre", "Parlementer", effetD_guerre, effetG_guerre, argD_guerre, argG_guerre, "./Famous-people-minimalism-04.jpg");
 
-const investissement = new carte("Investissement", "Monsseigneur, je voudrais ouvrir une taverne, mais il me manque quelques fonds pour le droit de propriété. Si vous vouliez bien investir dans mon projet, nous pourrions tous deux en tirer un sacré bénéfice. Qu'en dites-vous ?", "Investir", "Ne rien faire", effetD_investissement, effetG_investissement, argD_investissement, argG_investissement, "./Famous-people-minimalism-04.jpg");
+const investissement = new carte("Investissement", "Monseigneur, je voudrais ouvrir une taverne, mais il me manque quelques fonds pour le droit de propriété. Si vous vouliez bien investir dans mon projet, nous pourrions tous deux en tirer un sacré bénéfice. Qu'en dites-vous ?", "Investir", "Ne rien faire", effetD_investissement, effetG_investissement, argD_investissement, argG_investissement, "./Famous-people-minimalism-04.jpg");
 
 const peche = new carte("Pêche", "Mon roi, nous devrions profiter de ce beau temps pour organiser une grande pêche. Cela permettrait d'offrir une distraction au peuple, mais les éloignerait des champs et de leur travail.", "Partir pêcher", "Laisser le peuple travailler", effetD_peche, effetG_peche, argD_peche, argG_peche, "./Famous-people-minimalism-04.jpg");
 
@@ -330,7 +330,7 @@ const go_banque_bas = new carte("Faillite", "Nous sommes ruinés mon roi... Nous
 
 const go_banque_haut = new carte("Oligarchie", "Vous avez donné trop de pouvoir à la bourgeoisie, ceux-ci contrôlent maintenant tout, vous n'êtes plus réellement le maître de cette nation...", "...", "...", effetD_go_banque_haut, effetG_go_banque_haut, argD_go_banque_haut, argG_go_banque_haut, "./skull.jpg");
 
-const go_apocalypse = new carte("Apocalypse", "Monseigneur, c'est la fin du monde ! Le sol c'est ouvert en deux et il pleut des comètes ! Adieux ! (et merci d'avoir joué à notre jeu, ceci correspond à sa fin, vous avez réussi à garder votre royaume à flot jusqu'au bout ! Bien joué !)", "merci", "merci", effetD_go_apocalypse, effetG_go_apocalypse, argD_go_apocalypse, argG_go_apocalypse, "./skull.jpg");
+const go_apocalypse = new carte("Apocalypse", "Monseigneur, c'est la fin du monde ! Le sol s'est ouvert en deux et il pleut des comètes ! Adieux ! (et merci d'avoir joué à notre jeu, ceci correspond à sa fin, vous avez réussi à garder votre royaume à flot jusqu'au bout ! Bien joué !)", "merci", "merci", effetD_go_apocalypse, effetG_go_apocalypse, argD_go_apocalypse, argG_go_apocalypse, "./skull.jpg");
 
 toutes_les_cartes = [bandit, bonne_recolte, mauvaise_recolte, potion2, chasse, dragon, guerre, investissement, peche, relique, troubadour, trahison_general, barbares, voleur, joutes, gisement, academie_magie, banque, cachots, caserne, cathedrale, grenier, taverne, tour_guet];
 cartes_jouables = [intro];
