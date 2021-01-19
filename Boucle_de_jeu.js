@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", function() {
             fin_du_jeu=true;
             jouer(tour);
         } else {  
+            console.log("nouveau tour");
+            console.log("tour en cours =",tour);
             carteChoisie = piocher(cartes_jouables);
             console.log(carteChoisie.getname());
             changeCarte(carteChoisie);

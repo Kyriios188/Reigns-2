@@ -264,9 +264,9 @@ let argD_go_apocalypse = [tour];
 let argG_go_apocalypse = [tour];
 
 // on créée les cartes
-const bonne_recolte = new carte("Bonnes récoltes", "Bonne nouvelle ! Les récoltes ont été fructueuses votre altesse. Nous pourrions en faire profiter le peuple, ou entreposer les excédents pour nous constituer des réserves.", "Nourire le peuple", "Garder les recoltes pour soit", effetD_bandit, effetG_bandit, argD_bandit, argG_bandit, "./Famous-people-minimalism-04.jpg");
+const bonne_recolte = new carte("Bonnes récoltes", "Bonne nouvelle ! Les récoltes ont été fructueuses votre altesse. Nous pourrions en faire profiter le peuple, ou entreposer les excédents pour nous constituer des réserves.", "Nourire le peuple", "Garder les recoltes pour soit", effetD_bonne_recolte, effetG_bonne_recolte, argD_bonne_recolte, argG_bonne_recolte, "./Famous-people-minimalism-04.jpg");
 
-const bandit = new carte("Bandits", "Un groupe de bandits pille nos terres et terrorise notre peuple. Nous devons envoyer notre armée !", "Ne rien faire.", "Envoyer l'armée pour arréter les bandits", effetD_bonne_recolte, effetG_bonne_recolte, argD_bonne_recolte, argG_bonne_recolte, "./maradona.jpg");
+const bandit = new carte("Bandits", "Un groupe de bandits pille nos terres et terrorise notre peuple. Nous devons envoyer notre armée !", "Ne rien faire.", "Envoyer l'armée pour arréter les bandits", effetD_bandit, effetG_bandit, argD_bandit, argG_bandit, "./maradona.jpg");
 
 const mauvaise_recolte = new carte("Mauvaises récoltes", "Monseigneur ! Les récoltes sont mauvaises cette année... Nous pourrions donner moins de pain au peuple ou réduire les rations de la garde, mais il faut choisir.", "Nourrir le peuple", "Nourrir la garde", effetD_mauvaise_recolte, effetG_mauvaise_recolte, argD_mauvaise_recolte, argG_mauvaise_recolte, "./monroe.jpg");
 
@@ -282,7 +282,7 @@ const investissement = new carte("Investissement", "Monseigneur, je voudrais ouv
 
 const peche = new carte("Pêche", "Mon roi, nous devrions profiter de ce beau temps pour organiser une grande pêche. Cela permettrait d'offrir une distraction au peuple, mais les éloignerait des champs et de leur travail.", "Partir pêcher", "Laisser le peuple travailler", effetD_peche, effetG_peche, argD_peche, argG_peche, "./Famous-people-minimalism-04.jpg");
 
-const relique = new carte("Relique", "Une expédition envoyé pour explorer la région boisée au Nord-Est a découvert une étrange boîte dorée. D'après notre abbé il s'agirait de la relique de Saint Roland. Nous devrions organiser une grande procession pour l'entreposer dans notre cathédrale. Désirez-vous laisser l'Eglise s'en charger ?", "Laisser l'Eglise s'en charger", "Tout organiser", effetD_relique, effetG_relique, argD_relique, argG_relique, "./Famous-people-minimalism-04.jpg");
+const relique = new carte("Relique", "Une expédition, envoyée pour explorer la région boisée au Nord-Est, a découvert une étrange boîte dorée. D'après notre abbé, il s'agirait de la relique de Saint Roland. Nous devrions organiser une grande procession pour l'entreposer dans notre cathédrale. Désirez-vous laisser l'Eglise s'en charger ?", "Laisser l'Eglise s'en charger", "Tout organiser", effetD_relique, effetG_relique, argD_relique, argG_relique, "./Famous-people-minimalism-04.jpg");
 
 const troubadour = new carte("Troubadour", "Messire ! Permettez-moi de me présenter. Je suis le grand Jean de Boër, troubadour itinérant. Je souhaitais me produire ici quelques temps. Je pourrais vous proposer une partie de mes recettes...", "Accepter sa proposition", "Lui laisser l'intégralité de ses recettes", effetD_troubadour, effetG_troubadour, argD_troubadour, argG_troubadour, "./Famous-people-minimalism-04.jpg");
 
@@ -302,7 +302,7 @@ const banque = new carte("Construction d'une banque", "Nous pourrions construire
 
 const cachots = new carte("Construction de cachots", "Le taux de criminalité dans nos villes est trop élevé. Vous devriez ordonner la création de cachots pour emprisonner les criminels.", "Construire les cachots", "Ne rien construire", effetD_cachots, effetG_cachots, argD_cachots, argG_cachots, "./Famous-people-minimalism-04.jpg");
 
-const caserne = new carte("Construction d'une caserne", "Mon roi, nous pourrions construire une caserne et enroler de nouvelles recrues pour renforcer nos défense.", "Construire une caserne", "Ne rien construire", effetD_caserne, effetG_caserne, argD_caserne, argG_caserne, "./Famous-people-minimalism-04.jpg");
+const caserne = new carte("Construction d'une caserne", "Mon roi, nous pourrions construire une caserne et enrôler de nouvelles recrues pour renforcer nos défenses.", "Construire une caserne", "Ne rien construire", effetD_caserne, effetG_caserne, argD_caserne, argG_caserne, "./Famous-people-minimalism-04.jpg");
 
 const cathedrale = new carte("Construction d'une cathédrale", "La foi du peuple est vascillante, je le sens ! Nous devrions ordonner la construction d'une grande cathédrale à la gloire des dieux.", "Construire la cathédrale", "Ne rien construire", effetD_cathedrale, effetG_cathedrale, argD_cathedrale, argG_cathedrale, "./Famous-people-minimalism-04.jpg");
 
