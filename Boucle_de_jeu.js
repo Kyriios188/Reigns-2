@@ -6,12 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
     tour = 0; // Variable globale
 
     function jouer(tour) {
-        if ((tour>=tour_fin) && (fin_du_jeu==false)){
+        if (tour >= tour_fin) {
+            while (fin_du_jeu == false) {
             fin(tour);
             Ajout(cartes_jouables,go_apocalypse);
             tour = tour + 1;
             fin_du_jeu=true;
             jouer(tour);
+            }
         } else if ((document.getElementById("bank").value==0) && (fin_du_jeu==false)) {
             fin(tour);
             Ajout(cartes_jouables,go_banque_bas);
