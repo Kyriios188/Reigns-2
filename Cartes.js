@@ -264,11 +264,11 @@ let argD_go_apocalypse = [tour];
 let argG_go_apocalypse = [tour];
 
 // on créée les cartes
-const bonne_recolte = new carte("Bonnes récoltes", "Bonne nouvelle ! Les récoltes ont été fructueuses votre altesse. Nous pourrions en faire profiter le peuple, ou entreposer les excédents pour nous constituer des réserves.", "Nourire le peuple", "Garder les recoltes pour soit", effetD_bonne_recolte, effetG_bonne_recolte, argD_bonne_recolte, argG_bonne_recolte, "./farmer.png");
+const bonne_recolte = new carte("Bonnes récoltes", "Bonne nouvelle ! Les récoltes ont été fructueuses votre altesse. Nous pourrions en faire profiter le peuple, ou entreposer les excédents pour nous constituer des réserves.", "Nourire le peuple", "Garder les recoltes pour soit", effetD_bonne_recolte, effetG_bonne_recolte, argD_bonne_recolte, argG_bonne_recolte, "./farmer.jpg");
 
 const bandit = new carte("Bandits", "Un groupe de bandits pille nos terres et terrorise notre peuple. Nous devons envoyer notre armée !", "Ne rien faire.", "Envoyer l'armée pour arréter les bandits", effetD_bandit, effetG_bandit, argD_bandit, argG_bandit, "./army.png");
 
-const mauvaise_recolte = new carte("Mauvaises récoltes", "Monseigneur ! Les récoltes sont mauvaises cette année... Nous pourrions donner moins de pain au peuple ou réduire les rations de la garde, mais il faut choisir.", "Nourrir le peuple", "Nourrir la garde", effetD_mauvaise_recolte, effetG_mauvaise_recolte, argD_mauvaise_recolte, argG_mauvaise_recolte, "./farmer.png");
+const mauvaise_recolte = new carte("Mauvaises récoltes", "Monseigneur ! Les récoltes sont mauvaises cette année... Nous pourrions donner moins de pain au peuple ou réduire les rations de la garde, mais il faut choisir.", "Nourrir le peuple", "Nourrir la garde", effetD_mauvaise_recolte, effetG_mauvaise_recolte, argD_mauvaise_recolte, argG_mauvaise_recolte, "./farmer.jpg");
 
 const potion2 = new carte("Potion", "Souhaiteriez-vous être un leader charismatique monseigneur ? Ou préférez-vous une force surhumaine ? J'ai justement deux potions pour ça...", "Devenir un leader charismatique", "Avoir une force surhumaine", effetD_potion2, effetG_potion2, argD_potion2, argG_potion2, "./advisor.png");
 
@@ -280,7 +280,7 @@ const guerre = new carte("Guerre", "Des rapports de nos espions nous informent q
 
 const investissement = new carte("Investissement", "Monseigneur, je voudrais ouvrir une taverne, mais il me manque quelques fonds pour le droit de propriété. Si vous vouliez bien investir dans mon projet, nous pourrions tous deux en tirer un sacré bénéfice. Qu'en dites-vous ?", "Investir", "Ne rien faire", effetD_investissement, effetG_investissement, argD_investissement, argG_investissement, "./advisor.png");
 
-const peche = new carte("Pêche", "Mon roi, nous devrions profiter de ce beau temps pour organiser une grande pêche. Cela permettrait d'offrir une distraction au peuple, mais les éloignerait des champs et de leur travail.", "Partir pêcher", "Laisser le peuple travailler", effetD_peche, effetG_peche, argD_peche, argG_peche, "./farmer.png");
+const peche = new carte("Pêche", "Mon roi, nous devrions profiter de ce beau temps pour organiser une grande pêche. Cela permettrait d'offrir une distraction au peuple, mais les éloignerait des champs et de leur travail.", "Partir pêcher", "Laisser le peuple travailler", effetD_peche, effetG_peche, argD_peche, argG_peche, "./farmer.jpg");
 
 const relique = new carte("Relique", "Une expédition, envoyée pour explorer la région boisée au Nord-Est, a découvert une étrange boîte dorée. D'après notre abbé, il s'agirait de la relique de Saint Roland. Nous devrions organiser une grande procession pour l'entreposer dans notre cathédrale. Désirez-vous laisser l'Eglise s'en charger ?", "Laisser l'Eglise s'en charger", "Tout organiser", effetD_relique, effetG_relique, argD_relique, argG_relique, "./religion.png");
 
@@ -292,7 +292,7 @@ const barbares = new carte("Barbares", "Des barbares pillent nos églises et tue
 
 const voleur = new carte("Voleur", "Nous avons surpris un voleur qui s'était introduit dans notre cathédrale. Il tenait dans ses mains une de nos reliques, et son sac était rempli d'argenterie. Il semblerait que cet homme soit une sorte de héro du peuple qui volerait aux riches. Un certain Borin des forêts. Nous devrions l'enfermer dans nos geôles pour l'exemple...", "Emprisonner Borin des Forêts", "Relâcher Borin des Forêts", effetD_voleur, effetG_voleur, argD_voleur, argG_voleur, "./advisor.png");
 
-const joutes = new carte("Joutes", "C'est le festival du printemps seigneur ! Bien que cela représente un coût, nous pourrions organiser des joutes pour divertir le peuple.", "Organiser les joutes", "Ne rien organiser", effetD_joutes, effetG_joutes, argD_joutes, argG_joutes, "./farmer.png");
+const joutes = new carte("Joutes", "C'est le festival du printemps seigneur ! Bien que cela représente un coût, nous pourrions organiser des joutes pour divertir le peuple.", "Organiser les joutes", "Ne rien organiser", effetD_joutes, effetG_joutes, argD_joutes, argG_joutes, "./farmer.jpg");
 
 const gisement = new carte("Gisement", "Nous avons découvert un gisement de minerai. Vous pourriez utiliser le métal ainsi extrait pour équiper l'armée ou pour notre économie.", "Créer de la monnaie", "Créer des armes et de l'équipement", effetD_gisement, effetG_gisement, argD_gisement, argG_gisement, "./bank.jpg");
 
@@ -306,9 +306,9 @@ const caserne = new carte("Construction d'une caserne", "Mon roi, nous pourrions
 
 const cathedrale = new carte("Construction d'une cathédrale", "La foi du peuple est vascillante, je le sens ! Nous devrions ordonner la construction d'une grande cathédrale à la gloire des dieux.", "Construire la cathédrale", "Ne rien construire", effetD_cathedrale, effetG_cathedrale, argD_cathedrale, argG_cathedrale, "./religion.png");
 
-const grenier = new carte("Construction d'une grenier", "Nos récoltes sont régulièrement à l'origine de surplus, mais sans moyen de les entreposer, ils sont perdus. Nous devrions construire un grenier pour les entreposer.", "Construire un grenier", "Ne rien construire", effetD_grenier, effetG_grenier, argD_grenier, argG_grenier, "./farmer.png");
+const grenier = new carte("Construction d'une grenier", "Nos récoltes sont régulièrement à l'origine de surplus, mais sans moyen de les entreposer, ils sont perdus. Nous devrions construire un grenier pour les entreposer.", "Construire un grenier", "Ne rien construire", effetD_grenier, effetG_grenier, argD_grenier, argG_grenier, "./farmer.jpg");
 
-const taverne = new carte("Construction d'une taverne", "Le peuple s'ennuie monseigneur... Nous pourrions construire une taverne afin de leur changer les idées.", "Construire une taverne", "Ne rien construire", effetD_taverne, effetG_taverne, argD_taverne, argG_taverne, "./farmer.png");
+const taverne = new carte("Construction d'une taverne", "Le peuple s'ennuie monseigneur... Nous pourrions construire une taverne afin de leur changer les idées.", "Construire une taverne", "Ne rien construire", effetD_taverne, effetG_taverne, argD_taverne, argG_taverne, "./farmer.jpg");
 
 const tour_guet = new carte("Construction d'une tour de guet", "Nous subissons trop souvet des incursions des pays voisins ou des barbares qui profitent d'une faible sécurité aux frontières pour les traverser. Nous devrions construire des tours de guet afin de surveiller les limites de notre territoire.", "Construire une tour de guet", "Ne rien construire", effetD_tour_guet, effetG_tour_guet, argD_tour_guet, argG_tour_guet, "./army.png");
 
