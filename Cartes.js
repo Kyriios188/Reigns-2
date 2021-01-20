@@ -290,7 +290,7 @@ const trahison_general = new carte("Trahison du général", "Mon roi ! Votre gé
 
 const barbares = new carte("Barbares", "Des barbares pillent nos églises et tuent nos prêtres ! Envoyez immédiatement l'armée pour les protéger !", "Protéger les prêtres", "Ignorer leur problème", effetD_barbares, effetG_barbares, argD_barbares, argG_barbares, "./religion.png");
 
-const voleur = new carte("Voleur", "Nous avons surpris un voleur qui s'était introduit dans notre cathédrale. Il tenait dans ses mains une de nos reliques, et son sac était rempli d'argenterie. Il semblerait que cet homme soit une sorte de héro du peuple qui volerait aux riches. Un certain Borin des forêts. Nous devrions l'enfermer dans nos geôles pour l'exemple...", "Emprisonner Borin des Forêts", "Relâcher Borin des Forêts", effetD_voleur, effetG_voleur, argD_voleur, argG_voleur, "./advisor");
+const voleur = new carte("Voleur", "Nous avons surpris un voleur qui s'était introduit dans notre cathédrale. Il tenait dans ses mains une de nos reliques, et son sac était rempli d'argenterie. Il semblerait que cet homme soit une sorte de héro du peuple qui volerait aux riches. Un certain Borin des forêts. Nous devrions l'enfermer dans nos geôles pour l'exemple...", "Emprisonner Borin des Forêts", "Relâcher Borin des Forêts", effetD_voleur, effetG_voleur, argD_voleur, argG_voleur, "./advisor.png");
 
 const joutes = new carte("Joutes", "C'est le festival du printemps seigneur ! Bien que cela représente un coût, nous pourrions organiser des joutes pour divertir le peuple.", "Organiser les joutes", "Ne rien organiser", effetD_joutes, effetG_joutes, argD_joutes, argG_joutes, "./farmer.png");
 
