@@ -84,6 +84,4 @@ const endGame = function(tour) {
     if (replay === true) {
        location.reload();
     }
-}  
-
-
+}
