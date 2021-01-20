@@ -1,7 +1,7 @@
 //Initialisation après chargement du DOM : HYPER IMPORTANT
 document.addEventListener("DOMContentLoaded", function() {
 
-    let tour_fin = 20;
+    let tour_fin = 30;
     let fin_du_jeu=false;
     tour = 0; // Variable globale
 
