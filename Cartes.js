@@ -294,13 +294,13 @@ const voleur = new carte("Voleur", "Nous avons surpris un voleur qui s'était in
 
 const joutes = new carte("Joutes", "C'est le festival du printemps seigneur ! Bien que cela représente un coût, nous pourrions organiser des joutes pour divertir le peuple.", "Organiser les joutes", "Ne rien organiser", effetD_joutes, effetG_joutes, argD_joutes, argG_joutes, "./farmer.png");
 
-const gisement = new carte("Gisement", "Nous avons découvert un gisement de minerai. Vous pourriez utiliser le métal ainsi extrait pour équiper l'armée ou pour notre économie.", "Créer de la monnaie", "Créer des armes et de l'équipement", effetD_gisement, effetG_gisement, argD_gisement, argG_gisement, "./bank.png");
+const gisement = new carte("Gisement", "Nous avons découvert un gisement de minerai. Vous pourriez utiliser le métal ainsi extrait pour équiper l'armée ou pour notre économie.", "Créer de la monnaie", "Créer des armes et de l'équipement", effetD_gisement, effetG_gisement, argD_gisement, argG_gisement, "./bank.jpg");
 
-const academie_magie = new carte("Construction d'une académie de magie", "Nous pourrions construire une académie de magie et d'alchimie mon seigneur. Evidemment, nous ferions profiter la couronne des profits générés par l'alchimie...", "Construire l'académie", "Ne rien construire", effetD_academie_magie, effetG_academie_magie, argD_academie_magie, argG_academie_magie, "./bank.png");
+const academie_magie = new carte("Construction d'une académie de magie", "Nous pourrions construire une académie de magie et d'alchimie mon seigneur. Evidemment, nous ferions profiter la couronne des profits générés par l'alchimie...", "Construire l'académie", "Ne rien construire", effetD_academie_magie, effetG_academie_magie, argD_academie_magie, argG_academie_magie, "./bank.jpg");
 
-const banque = new carte("Construction d'une banque", "Nous pourrions construire une banque pour vous monseigneur. Elle vous permettrait de réaliser un bon profit.", "Construire la banque", "Ne rien construire", effetD_banque, effetG_banque, argD_banque, argG_banque, "./bank.png");
+const banque = new carte("Construction d'une banque", "Nous pourrions construire une banque pour vous monseigneur. Elle vous permettrait de réaliser un bon profit.", "Construire la banque", "Ne rien construire", effetD_banque, effetG_banque, argD_banque, argG_banque, "./bank.jpg");
 
-const cachots = new carte("Construction de cachots", "Le taux de criminalité dans nos villes est trop élevé. Vous devriez ordonner la création de cachots pour emprisonner les criminels.", "Construire les cachots", "Ne rien construire", effetD_cachots, effetG_cachots, argD_cachots, argG_cachots, "./bank.png");
+const cachots = new carte("Construction de cachots", "Le taux de criminalité dans nos villes est trop élevé. Vous devriez ordonner la création de cachots pour emprisonner les criminels.", "Construire les cachots", "Ne rien construire", effetD_cachots, effetG_cachots, argD_cachots, argG_cachots, "./bank.jpg");
 
 const caserne = new carte("Construction d'une caserne", "Mon roi, nous pourrions construire une caserne et enrôler de nouvelles recrues pour renforcer nos défenses.", "Construire une caserne", "Ne rien construire", effetD_caserne, effetG_caserne, argD_caserne, argG_caserne, "./army.png");
 
