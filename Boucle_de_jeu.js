@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     tour = 0; // Variable globale
 
     function jouer(tour) {
-        if (tour >= tour_fin) {
+        if ((tour >= tour_fin) && (fin_du_jeu==false)) {
             while (fin_du_jeu == false) {
             fin(tour);
             Ajout(cartes_jouables,go_apocalypse);
